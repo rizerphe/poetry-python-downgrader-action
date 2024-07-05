@@ -2,11 +2,17 @@
 
 This is a github action for [poetry-python-downgrader](https://github.com/rizerphe/poetry-python-downgrader).
 
+[![Use action](https://img.shields.io/badge/Use_action-black?logo=GitHub%20Actions)](https://github.com/marketplace/actions/poetry-python-downgrader)
+[![The original project](https://img.shields.io/badge/The_original_project-black?logo=GitHub)](https://github.com/rizerphe/poetry-python-downgrader)
+[![Latest release](https://badgen.net/github/release/rizerphe/poetry-python-downgrader-action)](https://github.com/rizerphe/poetry-python-downgrader-action/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PyPI project](https://badge.fury.io/py/poetry-python-downgrader.svg)](https://badge.fury.io/py/poetry-python-downgrader)
+
 ## Quickstart
 
 ```yaml
 - name: Downgrade Poetry packages
-  uses: rizerphe/poetry-python-downgrader@v0.1.3
+  uses: rizerphe/poetry-python-downgrader@v0.1.5
   with:
       python-version: "3.8"
 ```
@@ -19,7 +25,7 @@ You can use this tool as a GitHub Action in your workflows. Here's an example of
 
 ```yaml
 - name: Downgrade Poetry packages
-  uses: rizerphe/poetry-python-downgrader@v0.1.3
+  uses: rizerphe/poetry-python-downgrader@v0.1.5
   with:
       python-version: "3.8"
       pyproject-path: "pyproject.toml"
@@ -39,7 +45,7 @@ You can use this tool as a GitHub Action in your workflows. Here's an example of
 **Basic usage (downgrade to Python 3.8)**
 
 ```yaml
-- uses: rizerphe/poetry-python-downgrader@v0.1.3
+- uses: rizerphe/poetry-python-downgrader@v0.1.5
   with:
       python-version: "3.8"
 ```
@@ -58,7 +64,7 @@ jobs:
             - uses: actions/setup-python@v2
               with:
                   python-version: ${{ matrix.python-version }}
-            - uses: rizerphe/poetry-python-downgrader@v0.1.3
+            - uses: rizerphe/poetry-python-downgrader@v0.1.5
               with:
                   python-version: ${{ matrix.python-version }}
 ```
@@ -68,7 +74,7 @@ This action does not support all github actions python versions; it'll just skip
 **Downgrade with pinned versions**
 
 ```yaml
-- uses: rizerphe/poetry-python-downgrader@v0.1.3
+- uses: rizerphe/poetry-python-downgrader@v0.1.5
   with:
       python-version: "3.8"
       pin-versions: "true"
@@ -77,7 +83,7 @@ This action does not support all github actions python versions; it'll just skip
 **Use a custom PyPI repository**
 
 ```yaml
-- uses: rizerphe/poetry-python-downgrader@v0.1.3
+- uses: rizerphe/poetry-python-downgrader@v0.1.5
   with:
       python-version: "3.8"
       repository: "https://custom-pypi.example.com/pypi"
@@ -86,7 +92,7 @@ This action does not support all github actions python versions; it'll just skip
 **Specify a different pyproject.toml location**
 
 ```yaml
-- uses: rizerphe/poetry-python-downgrader@v0.1.3
+- uses: rizerphe/poetry-python-downgrader@v0.1.5
   with:
       python-version: "3.8"
       pyproject-path: "path/to/pyproject.toml"
