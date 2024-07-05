@@ -2,11 +2,11 @@
 
 This is a github action for [poetry-python-downgrader](https://github.com/rizerphe/poetry-python-downgrader).
 
-[![Use action](https://img.shields.io/badge/Use_action-black?logo=GitHub%20Actions)](https://github.com/marketplace/actions/poetry-python-downgrader)
-[![The original project](https://img.shields.io/badge/The_original_project-black?logo=GitHub)](https://github.com/rizerphe/poetry-python-downgrader)
-[![Latest release](https://badgen.net/github/release/rizerphe/poetry-python-downgrader-action)](https://github.com/rizerphe/poetry-python-downgrader-action/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PyPI project](https://badge.fury.io/py/poetry-python-downgrader.svg)](https://badge.fury.io/py/poetry-python-downgrader)
+[![Use action](https://img.shields.io/badge/Use_action-gray?style=flat-square&logo=GitHub%20Actions)](https://github.com/marketplace/actions/poetry-python-downgrader)
+[![The original project](https://img.shields.io/badge/The_original_project-gray?style=flat-square&logo=GitHub)](https://github.com/rizerphe/poetry-python-downgrader)
+[![Latest release](https://flat.badgen.net/github/release/rizerphe/poetry-python-downgrader-action)](https://github.com/rizerphe/poetry-python-downgrader-action/releases)
+[![License: MIT](https://flat.badgen.net/github/license/rizerphe/poetry-python-downgrader-action)](https://opensource.org/licenses/MIT)
+[![PyPI project](https://flat.badgen.net/pypi/v/poetry-python-downgrader)](https://badge.fury.io/py/poetry-python-downgrader)
 
 ## Quickstart
 
